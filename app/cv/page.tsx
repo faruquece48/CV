@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "CV — Faruque Abdullah" };
 const interests = [
   "Structural Health Monitoring (SHM)", "Nondestructive Testing and Evaluation",
   "FRP/CFRP Strengthening and Retrofitting",
-  "Self-Sensing Concrete & Smart Materials", "Finite-Element Modelling (ABAQUS)", "Data-Driven Strength Prediction",
+  "Self-Sensing Concrete & Smart Materials", "Finite Element Modelling (ABAQUS)", "Data-Driven Strength Prediction",
 ];
 
 function SideIcon({ name }: { name: "research" | "skills" | "languages" | "memberships" | "personal" }) {
@@ -73,7 +73,7 @@ export default function CVPage() {
         <blockquote>“Engineering for safer, smarter<br />and more sustainable structures.”</blockquote>
       </aside>
       <article className="cv-ref-content">
-        <MainSection icon="●" title="PROFESSIONAL PROFILE"><p>Assistant Professor and structural engineering researcher at the Department of Building Engineering &amp; Construction Management, Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh. My MSc research investigated the performance of FRP-strengthened steel tubular T-joints under static and dynamic loading through laboratory testing, finite-element modelling in ABAQUS and regression-based analysis of experimental and numerical data. Building on this foundation in structural strengthening and performance assessment, my current research interests focus on structural health monitoring, nondestructive testing and evaluation, FRP/CFRP strengthening and retrofitting, self-sensing concrete and smart materials, finite-element modelling and data-driven strength prediction. I aim to integrate experimental investigation, computational simulation and intelligent sensing methods to develop reliable approaches for evaluating structural condition, predicting performance and improving the safety and resilience of civil infrastructure.</p></MainSection>
+        <MainSection icon="●" title="PROFESSIONAL PROFILE"><p>Assistant Professor and structural engineering researcher at the Department of Building Engineering &amp; Construction Management, Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh. My MSc research investigated the performance of FRP-strengthened steel tubular T-joints under static and dynamic loading through laboratory testing, finite element modelling in ABAQUS and regression-based analysis of experimental and numerical data. Building on this foundation in structural strengthening and performance assessment, my current research interests focus on structural health monitoring, nondestructive testing and evaluation, FRP/CFRP strengthening and retrofitting, self-sensing concrete and smart materials, finite element modelling and data-driven strength prediction. I aim to integrate experimental investigation, computational simulation and intelligent sensing methods to develop reliable approaches for evaluating structural condition, predicting performance and improving the safety and resilience of civil infrastructure.</p></MainSection>
         <MainSection icon="◆" title="EDUCATION">
           <div className="cv-ref-education"><div><h3>Master of Science (MSc) in Civil Engineering - 2026</h3><strong>CGPA 4.00</strong></div><p>Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh</p><p><em>Thesis: Performance of FRP Strengthened Steel Joints Under Static and Dynamic Loads</em><br />Supervisor: Dr. S. M. Zahrul Islam, Professor, Dept. of Civil Engineering, RUET</p></div>
           <div className="cv-ref-education"><div><h3>Bachelor of Science (BSc) in Civil Engineering - 2018</h3><strong>CGPA 3.75</strong></div><p>Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh</p></div>
@@ -91,11 +91,17 @@ export default function CVPage() {
           <h3>Journal Articles</h3><ul>
             <li><a href="https://doi.org/10.30880/ijscet.2025.16.01.004" target="_blank" rel="noreferrer">Influence of Building Orientation on Instant, Delayed Sensible and Latent Energy Loads: A Building Information Modelling (BIM) Based Analysis (2025)</a></li>
             <li><a href="https://doi.org/10.1038/s41598-024-68360-4" target="_blank" rel="noreferrer">Numerical and Machine Learning Modeling of GFRP Confined Concrete-Steel Hollow Elliptical Columns (2024)</a></li>
+            <li><a href="https://www.sciencepg.com/article/10.11648/j.ajce.20241201.11" target="_blank" rel="noreferrer">BIM-Based Approach to Reduce GHG Emissions in Construction (2024)</a></li>
             <li><a href="https://doi.org/10.11648/j.ijepp.20210904.12" target="_blank" rel="noreferrer">A Study on Water Logging Problem of Rangpur City (2021)</a></li>
             <li><a href="https://doi.org/10.11648/j.ajce.20210904.13" target="_blank" rel="noreferrer">A Comparative Study of Lateral Load Analysis Considering Two BNBC Codes Using ETABS Software (2021)</a></li>
             <li><a href="https://doi.org/10.11648/j.ajtte.20210602.12" target="_blank" rel="noreferrer">Evaluation of Traffic Accessibility Condition and Noise Pollution in Dhaka City of Bangladesh (2021)</a></li>
           </ul>
-          <h3>Conference Proceedings</h3><ul><li><a href="https://iccesd.kuet.ac.bd/2026/Papers/24.pdf" target="_blank" rel="noreferrer">Performance Evaluation of CFRP-Retrofitted Circular T-Joints Under Damage and Elevated Temperature Conditions (ICCESD 2026, KUET)</a></li><li><a href="https://icceiruet.org/" target="_blank" rel="noreferrer">Performance of FRP Strengthened Steel Tubular T-Joints (ICCEI 2025, RUET)</a></li></ul>
+          <h3>Conference Proceedings</h3><ul>
+            <li><a href="https://iccesd.kuet.ac.bd/2026/Papers/24.pdf" target="_blank" rel="noreferrer">Performance Evaluation of CFRP-Retrofitted Circular T-Joints Under Damage and Elevated Temperature Conditions (ICCESD 2026, KUET)</a></li>
+            <li><a href="https://icceiruet.org/" target="_blank" rel="noreferrer">Performance of FRP Strengthened Steel Tubular T-Joints (ICCEI 2025, RUET)</a></li>
+            <li><a href="https://iccesd.kuet.ac.bd/2024/Papers/337.pdf" target="_blank" rel="noreferrer">Sustainable Solutions to Alleviate Water Seepage for Enhancing Slope Stability (7th ICCESD, 2024)</a></li>
+            <li><a href="https://icceiruet.org/wp-content/uploads/2023/10/BECM-0127.pdf" target="_blank" rel="noreferrer">Enhancement of Concrete&apos;s Flexibility Using Local Ingredients (2023)</a></li>
+          </ul>
         </MainSection>
       </article>
     </div>
